@@ -1,0 +1,25 @@
+.todos {
+  height: 500px;
+  width: 500px;
+  background-color: darkgrey;
+  border: dashed;
+}
+
+form {
+  display: flex;
+}
+
+.form-container {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
